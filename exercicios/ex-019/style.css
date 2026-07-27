@@ -1,0 +1,39 @@
+@charset "UTF-8";
+ 
+
+
+
+body {
+
+    background-color: black;    
+
+    font-family: Arial, sans-serif;
+
+    
+
+}
+h1 {
+color:blue
+}
+
+
+h1#principal {
+
+    color:darkslateblue
+}
+    
+
+h2 {
+color:blueviolet
+}
+
+p {
+    color: white;
+ text-align: center;
+
+}
+
+h2.avancado {
+    color: red;
+    text-align: center;
+}
