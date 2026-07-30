@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+<style>
+#container {
+height: 95vh;
+background-color: purple;
+padding: 10px;
+background-image: url(imagens/target001.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center center;
+}
+
+#conteudo {
+height: 200px;
+background-color: yellow;
+width: 400px;
+position: absolute;
+left: 50%;
+top: 50%;   
+transform: translate(-50%, -50%);
+}
+/* posso usar left e top, quando eu colocar position absolute no conteudo, posso trabalhar com % e tambem com px */ /* quando eu coloco transform translate e coloco -50 -50 eu consigo centralizar o meu conteudo*/
+
+</style>
+
+</head>
+<body>
+<section id="container">
+            <article id="conteudo">
+
+
+    </article>
+        
+</section>
+</body>
+</html>
