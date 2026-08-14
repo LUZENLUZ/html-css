@@ -13,15 +13,16 @@
         display: none;
     }
 
-    menu {
-display: block;
+ 
 
-    }
+ menu ul {
+    display: flex;
+    justify-content: center; /* Centraliza o grupo de links */
+    list-style: none;
+    gap: 10px; /* Espaço entre eles */
+}
 
-    menu > ul > li {
-display: inline-block;
 
-    }
 
     main {
 width: 768px;
