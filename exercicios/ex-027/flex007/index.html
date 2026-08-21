@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        div.container {
+background-color: red;
+display: flex;
+flex-flow:row wrap;
+align-items: flex-start;
+height: 300px;
+        }
+        div.item {
+background-color: lightblue;
+border: 1px solid black;
+padding: 20px;
+
+
+
+        }
+        #oi {
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="oi" class="item" style="order:-22;" >A </div>
+        <div class="item" style="order: 2;">B </div>
+        <div class="item">C </div>
+        <div class="item">D </div>
+        <div class="item" style="order: 1;">E </div>
+        <div class="item">F </div>
+        <div class="item">G </div>
+        <div class="item">H </div>
+
+
+    </div>
+
+</body>
+</html>
